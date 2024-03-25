@@ -1,0 +1,114 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #1a1b1c;
+    background-color: #72a9e0;
+    padding-top: 20px;
+}
+.container {
+    max-width: 768px;
+    margin: auto;
+    padding: 15px;
+    background: rgba(19, 36, 64, 0);
+    box-shadow: 0 0 15px #ffffff;
+}
+header, .section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff;
+}
+header {
+    text-align: center;
+   
+    
+    
+}
+h1 {
+    margin-bottom: 10px;
+    color: aliceblue
+}
+p {
+    margin-bottom: 10px;
+}
+.section:last-child {
+    border-bottom: none;
+}
+
+h2 
+
+{
+    color: #ffffff;
+    margin-bottom: 15;
+font-size: smaller;}
+        
+ .footer
+{
+   
+     max-width: 768px;
+    margin: auto;
+    padding: 15px;
+    background: rgba(19, 36, 64, 0);
+    box-shadow: 0 0 15px #ffffff;
+    text-align: center;
+     border-top: 3px solid #4a77d4;
+    color: #ffffff;
+    padding-top: 20px;
+    
+}
+h5
+{
+   color: #3c30c7; 
+    
+}
+
+.buttonoo {
+  background-color: #1a1b1c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+    padding: 10px 15px;
+background-color: #037d50;
+transition: background-color 0.3s ease;}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #3e75e8;
+}
+
+
+        .search-container {
+            float: right;
+        }
+        .search-container input[type="text"] {
+            padding: 5px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+        .search-container button {
+            float: right;
+            padding: 5px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+        .search-container button:hover {
+            background-color: rgb(201, 94, 115);
+        }
